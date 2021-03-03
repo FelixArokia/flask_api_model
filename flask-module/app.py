@@ -30,7 +30,7 @@ def makecalc():
     print(model.predict(j_data))
     print(prediction)
 
-    return jsonify(prediction, predict_proba)
+    return jsonify(prediction = prediction, predict_proba = predict_proba)
 
 
 if __name__ == '__main__':
